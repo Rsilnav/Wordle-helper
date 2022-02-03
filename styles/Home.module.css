@@ -1,10 +1,56 @@
+.smallCell {
+  width: 60px;
+  height: 60px;
+  font-size: x-large;
+  text-align: center;
+  border: 0;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+.bigCell {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.wordlist {
+  height: 479px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: center;
+  align-content: center;
+}
+
+.wordlist li {
+  margin: 0 10px;
+}
+
+.colorCorrect {
+  background-color: rgb(106, 170, 100);
+}
+
+.colorPresent {
+  background-color: rgb(201, 180, 88);
+}
+
+.colorAbsent {
+  background-color: rgb(120, 124, 126);
+}
+
 .container {
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: 91vh;
+  padding: 0 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -40,9 +86,9 @@
 }
 
 .title {
-  margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin: 0 0 40px;
 }
 
 .title,
